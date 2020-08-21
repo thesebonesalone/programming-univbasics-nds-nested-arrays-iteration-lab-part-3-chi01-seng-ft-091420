@@ -7,7 +7,9 @@ new_string = ""
 while count < src.length do
   inner_count = 0
   while inner_count < src[count].length do 
-    puts src[count][inner_count] - 1
+    if (src[count][inner_count] += 1)
+      puts "It's Working!"
+    end
     inner_count += 1
   end
   count += 1
