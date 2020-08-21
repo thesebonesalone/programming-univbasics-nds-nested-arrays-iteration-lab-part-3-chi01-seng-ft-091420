@@ -14,5 +14,6 @@ while count < src.length do
   end
   count += 1
 end
+puts new_string
 return new_string
 end
